@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Практична №1 — Таблиця розкладу (КІД-42)</title>
+  <title>Практична №1 — Розклад (КІД-42)</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -24,72 +24,18 @@
   <main class="container">
     <section>
       <h2>Практична робота №1: Основи HTML</h2>
-      <p><strong>Завдання:</strong> створити таблицю з розкладом занять на місяць для групи КІД-42.</p>
-      <p><strong>Джерело розкладу:</strong> офіційний сайт університету (розділ “Академічні групи”). Переглянути актуальні дані можна тут:
-        <a href="https://e-rozklad.duikt.edu.ua/time-table/group?type=0" target="_blank" rel="noopener">https://e-rozklad.duikt.edu.ua/time-table/group?type=0</a>.
-        Розклад може оновлюватися у системі.
+      <p><strong>Завдання:</strong> створити сторінку з розкладом занять на місяць для групи КІД-42.</p>
+    </section>
+
+    <section>
+      <h2>Розклад занять</h2>
+      <p>Актуальний розклад групи КІД-42 доступний на офіційному сайті університету:</p>
+      <p>
+        <a href="https://e-rozklad.duikt.edu.ua/time-table/group?type=0" target="_blank" rel="noopener">
+          Переглянути розклад групи КІД-42
+        </a>
       </p>
-    </section>
-
-    <section>
-      <h2>Розклад на місяць</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Дата</th>
-              <th>День тижня</th>
-              <th>Час</th>
-              <th>Дисципліна</th>
-              <th>Форма</th>
-              <th>Викладач</th>
-              <th>Аудиторія</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- Приклад записів. Замініть на фактичні дані вашої групи -->
-            <tr>
-              <td>03.12.2025</td>
-              <td>Середа</td>
-              <td>08:30–09:50</td>
-              <td>Комп’ютерні мережі</td>
-              <td><span class="tag">Лекція</span></td>
-              <td>Прізвище І.П.</td>
-              <td>Ауд. 307</td>
-            </tr>
-            <tr>
-              <td>03.12.2025</td>
-              <td>Середа</td>
-              <td>10:00–11:20</td>
-              <td>Комп’ютерні мережі</td>
-              <td><span class="tag">Лабораторна</span></td>
-              <td>Прізвище І.П.</td>
-              <td>Лаб. 402</td>
-            </tr>
-            <tr>
-              <td>05.12.2025</td>
-              <td>П’ятниця</td>
-              <td>12:10–13:30</td>
-              <td>Веб технології</td>
-              <td><span class="tag">Практика</span></td>
-              <td>Прізвище І.П.</td>
-              <td>Ауд. 214</td>
-            </tr>
-            <!-- Додайте усі дні та пари місяця за офіційним розкладом -->
-          </tbody>
-        </table>
-      </div>
-      <small class="muted">Примітка: дані наведені як приклад. Актуальний розклад — на офіційному сайті університету.</small>
-    </section>
-
-    <section>
-      <h2>Коротко про реалізацію</h2>
-      <ul class="list">
-        <li><strong>Семантика:</strong> використані теги section, header, nav, footer.</li>
-        <li><strong>Таблиця:</strong> структурована через thead/tbody, з липким заголовком у стилях.</li>
-        <li><strong>Стилі:</strong> єдиний файл css/style.css для всіх сторінок.</li>
-        <li><strong>Навігація:</strong> уніфіковане меню для переходів між розділами.</li>
-      </ul>
+      <small class="muted">Примітка: розклад може змінюватися, тому завжди перевіряйте офіційний сайт.</small>
     </section>
   </main>
 
